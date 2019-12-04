@@ -2,9 +2,9 @@
 
 class Datum {
 
-    private $dag;
-    private $maand;
-    private $jaar;
+    protected $dag;
+    protected $maand;
+    protected $jaar;
 
     public function __construct($dag = 1, $maand = 1, $jaar = 1990) {
         $this->dag = $dag;
